@@ -1,0 +1,58 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+ .block_newsletter{
+    margin:0 auto;
+}
+@media (min-width: 992px){
+    .block_newsletter.col-lg-8{
+        float:inherit !important;
+    }
+}
+.breadcrumb{
+    float: right;
+}
+
+.carousel-inner{
+    height:70vh !important;
+}
+.banner{
+    text-align: center;
+}
+
+.products-section-title{
+    margin-top:5% !important;
+    margin-bottom:5% !important;
+}
+
+.card{
+    box-shadow: 0px 0px 0px 0 rgba(0,0,0,0) !important;
+}
+.products-sort-order.select-title{
+    box-shadow: 0px 0px 0px 0 rgba(0,0,0,0) !important;
+}
+
+#header{
+    position: fixed;
+    width: 20%;
+    top: 0;
+    bottom: 0;
+}
+
+#wrapper{
+    float: right;
+    width: 80%;
+}
+#footer{
+    float: right;
+    width: 80%;
+}
+.test{
+    width: 80% ;
+    float: right;
+}
+.page-header{
+    text-align: center;
+}

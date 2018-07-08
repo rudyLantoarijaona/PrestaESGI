@@ -1,0 +1,28 @@
+#block-reassurance{
+  margin-top: 2rem;
+  img{
+    width: 1.563rem;
+    margin-right: 0.625rem;
+  }
+
+  ul {
+    display: flex;
+
+  }
+  li{
+    margin-right: 20px;
+    &:last-child {
+      border: 0;
+    }
+  }
+  li .block-reassurance-item{
+    padding: 1rem 1.5rem;
+  }
+  #product &{
+    //@include box-shadow;
+    //background: white;
+    span{
+      font-weight: 700;
+    }
+  }
+}
